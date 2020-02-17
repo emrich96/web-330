@@ -2,5 +2,5 @@
 Enterprise JavaScript II
 
 # contributors
-Richard Krasso-Bellevue University
+Richard Krasso-Bellevue University  
 Emily Richter-Bellevue University
