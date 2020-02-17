@@ -1,6 +1,6 @@
 # web-330
 Enterprise JavaScript II
 
-#contributors
+# contributors
 Richard Krasso-Bellevue University
 Emily Richter-Bellevue University
