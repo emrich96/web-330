@@ -1,2 +1,6 @@
 # web-330
-Bellevue University Course WEB330 - Enterprise JavaScript II
+Enterprise JavaScript II
+
+#contributors
+Richard Krasso-Bellevue University
+Emily Richter-Bellevue University
