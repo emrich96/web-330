@@ -22,7 +22,8 @@ console.log(header.display("Emily", "Richter", "Exercise 3.3"));
 */
 
 // start program
-var databaseSingleton = (function () {
+// Databasesingleton Class
+var DatabaseSingleton = (function () {
   var instance;
   function createInstance() {
     var postgresDatabase = new Object("Database instance initialized!");
@@ -38,11 +39,13 @@ var databaseSingleton = (function () {
   }
 })();
 
+// Create two new database instances
 function databaseSingletonTest() {
-  var Oracle = databaseSingleton.getInstance();
-  var Informix = databaseSingleton.getInstance();
+  var Oracle = DatabaseSingleton.getInstance();
+  var Informix = DatabaseSingleton.getInstance();
   console.log("One database instance? " + (Oracle === Informix));
 };
 
+// Test
 databaseSingletonTest();
 // end program
