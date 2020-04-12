@@ -65,7 +65,7 @@
 
       <br />
 
-      <h2>CRUD Example</h2>
+      <h2>CRUD Example - Emily Richter</h2>
       <br />
       <div class="row">
         <div class="col-sm-8">
@@ -74,7 +74,7 @@
             style="background-color: #333; border-color: #333; color: white;"
           >
             <div class="card-block p-3">
-              <h3 class="card-title">Employee List</h3>
+              <h3 class="card-title">Payroll List</h3>
               <div class="card-text">
                 <div class="form-group row">
                   <label for="txtName" class="col-2 col-form-label"
@@ -154,7 +154,7 @@
             style="background-color: #333; border-color: #333; color: white;"
           >
             <div class="card-block p-3">
-              <h3 class="card-title">Employee List Item</h3>
+              <h3 class="card-title">Employee</h3>
               <div class="card-text">
                 <div class="form-group">
                   <label for="txtName">Name: </label>
@@ -233,9 +233,7 @@
         self.add = function() {
           if (
             self.Name() !== "" &&
-            self.Id() !== "" &&
-            self.Employees.indexOf(self.Name()) < 0 &&
-            self.Employees.indexOf(self.Id()) < 0
+            self.Id() !== ""
           ) {
             self.error("");
             self.Employee({Id: self.Id(), Name: self.Name()})
